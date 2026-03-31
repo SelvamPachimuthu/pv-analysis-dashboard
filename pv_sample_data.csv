@@ -1,0 +1,11 @@
+case_id,patient_age,gender,country,seriousness,outcome,source,drug_name,event_term,report_date
+1,45,Male,India,Serious,Recovered,Spontaneous,Paracetamol,Rash,2024-01-10
+2,60,Female,USA,Non-Serious,Recovered,Literature,Ibuprofen,Headache,2024-02-12
+3,30,Male,UK,Serious,Fatal,Clinical Trial,Aspirin,Bleeding,2024-03-01
+4,25,Female,India,Non-Serious,Recovering,Spontaneous,Amoxicillin,Nausea,2024-03-15
+5,70,Male,Canada,Serious,Fatal,Literature,Metformin,Lactic acidosis,2024-04-01
+6,50,Female,Germany,Serious,Recovered,Clinical Trial,Atorvastatin,Myalgia,2024-04-10
+7,40,Male,India,Non-Serious,Recovered,Spontaneous,Cetirizine,Drowsiness,2024-04-18
+8,33,Female,USA,Serious,Recovered,Literature,Warfarin,Bleeding,2024-05-05
+9,29,Male,UK,Non-Serious,Recovered,Clinical Trial,Omeprazole,Abdominal pain,2024-05-20
+10,55,Female,India,Serious,Fatal,Spontaneous,Insulin,Hypoglycemia,2024-06-01
