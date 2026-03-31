@@ -1,3 +1,4 @@
 pandas
 db_config
 streamlit
+mysql-connector-python
