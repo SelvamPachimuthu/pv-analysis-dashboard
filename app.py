@@ -1,5 +1,6 @@
 import streamlit as st
 from queries import get_all_cases, get_serious_cases
+import plotly.express as px
 
 st.title("Pharmacovigilance Dashboard")
 
@@ -9,4 +10,5 @@ st.dataframe(df)
 st.subheader("Serious vs Non-Serious")
 serious_df = get_serious_cases()
 st.bar_chart(serious_df.set_index("seriousness"))
-st.plotly_chart(serious_df.set_index("seriousness"), use_container_width=True)  
+fig = px.bar(serious_df, x="seriousness", y="count")
+st.plotly_chart(fig, use_container_width=True)
