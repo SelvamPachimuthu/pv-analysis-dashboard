@@ -1,4 +1,3 @@
-pandas
-db_config
 streamlit
+pandas
 mysql-connector-python
